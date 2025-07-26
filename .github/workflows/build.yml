@@ -13,7 +13,7 @@ jobs:
      # 2️⃣  The extra ZMK module
       - uses: actions/checkout@v4
         with:
-          repository: haroldhernandez/combos-lead   # remote + project in your manifest
+          repository: harlord/combos-lead   # remote + project in your manifest
           ref: main                                # or a tag/branch
           path: modules/combos-lead    
 
