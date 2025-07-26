@@ -15,7 +15,8 @@ jobs:
         with:
           repository: harlord/combos-lead   # remote + project in your manifest
           ref: main                                # or a tag/branch
-          path: modules/combos-lead    
+          path: modules/combos-lead   
+           
 
       - uses: actions/checkout@v4
         with:
