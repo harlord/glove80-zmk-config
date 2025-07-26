@@ -9,6 +9,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+
+     # 2️⃣  The extra ZMK module
+      - uses: actions/checkout@v4
+        with:
+          repository: haroldhernandez/combos-lead   # remote + project in your manifest
+          ref: main                                # or a tag/branch
+          path: modules/combos-lead    
+
+
       - uses: actions/checkout@v4
         with:
           repository: moergo-sc/zmk
