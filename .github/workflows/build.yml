@@ -29,7 +29,9 @@ jobs:
           name: moergo-glove80-zmk-dev
           skipPush: true
       - name: Build Glove80 combined firmware
-        run: nix-build config -o combined
+        run: |
+          export ZMK_EXTRA_MODULES=$GITHUB_WORKSPACE/modules/combos-lead
+          nix-build config -o combined
       - name: Copy result out of nix store
         run: cp combined/glove80.uf2 glove80.uf2
       - name: Upload result
