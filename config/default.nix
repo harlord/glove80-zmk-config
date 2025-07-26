@@ -3,7 +3,7 @@
 }:
 
 let
-  config = ./.
+  config = ./.;
 
   # path to the combos-lead module checked out by the workflow
   combosLead = "${config}/modules/combos-lead";
