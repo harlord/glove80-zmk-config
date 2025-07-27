@@ -1,0 +1,15 @@
+
+
+#define CBKSHIFT(BINDINGS, KEYPOS) \
+  cbkshift_##KEYPOS { \
+    timeout-ms = <2000>; \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS 69>; \
+    key-positions-leader = <KEYPOS>; \
+    key-positions-first-exclude = <69>; \
+    slow-release; \
+    layers = <DEFAULT>; \
+  };
+
+//shift+BKSPACE<>TILDE 
+CBKSHIFT(&mshon LA(N1), 23) 
