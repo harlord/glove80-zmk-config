@@ -1,7 +1,0 @@
-config COMBOS_LEAD
-    bool "Enable combos-lead module"
-    default y
-
-# This is a placeholder Kconfig so that the symbol referenced from the
-# user overlay exists.  The actual behavior/runtime code is provided by
-# the combos-lead module that is checked out by the workflow. 
