@@ -1,4 +1,6 @@
-name: combos-lead
+name: combos_lead
 build:
+  cmake: .
   kconfig: Kconfig
-  dts_root: dts 
+  settings:
+    dts_root: .
