@@ -1,0 +1,10 @@
+manifest:
+  remotes:
+    - name: harold
+      url-base: https://github.com/harlord
+  projects:
+    - name: combos-lead
+      remote: harold
+      revision: main
+  self:
+    path: config 
