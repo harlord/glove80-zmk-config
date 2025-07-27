@@ -23,7 +23,7 @@ jobs:
       run: |
         mkdir -p modules
         git clone --depth 1 \
-          https://github.com/haroldhernandez/combos-lead \
+          https://github.com/harlord/combos-lead \
           modules/combos-lead
 
     #------------------------------------------------------------
