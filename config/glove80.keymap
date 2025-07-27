@@ -20,6 +20,9 @@
 #define FACTORY_TEST 3
 
 / {
+    #include "macros/macros_general.dtsi"
+    #include "combos/combos_general.dtsi"
+
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to

@@ -1,0 +1,14 @@
+macros {
+        // mc_bkctilde
+
+        mc_bkctilde: mc_bkctilde {
+            label = "&TILDE";
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&kp LA(E)>,
+                <&macro_tap>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+        };
+
+    };
