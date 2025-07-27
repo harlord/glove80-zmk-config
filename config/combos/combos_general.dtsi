@@ -11,5 +11,10 @@
     layers = <DEFAULT>; \
   };
 
+
+combos {
+        compatible = "zmk,combos";
 //shift+BKSPACE<>TILDE 
-CBKSHIFT(&mshon LA(N1), 23) 
+CBKSHIFT(&kp LA(N1), 23) 
+
+    };
