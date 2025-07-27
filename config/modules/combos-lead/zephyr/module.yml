@@ -1,6 +1,0 @@
-name: combos-lead
-
-build:
-  kconfig: Kconfig       # Kconfig is required, keep this line
-
-dts_root: dts      
