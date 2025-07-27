@@ -1,6 +1,6 @@
-name: combos_lead
+name: combos-lead
+
 build:
-  cmake: .
-  kconfig: Kconfig
-  settings:
-    dts_root: .
+  kconfig: Kconfig       # Kconfig is required, keep this line
+
+dts_root: dts      
