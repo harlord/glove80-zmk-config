@@ -6,7 +6,7 @@ let
   config = ./.;
 
   # path to the combos-lead module checked out by the workflow
-  combosLead = "${config}/../modules/combos-lead";
+  combosLead = "${config}/modules/combos-lead";
 
   glove80_left = firmware.zmk.override {
     board = "glove80_lh";
