@@ -2,7 +2,7 @@ macros {
         // mc_bkctilde
 
         mc_bkctilde: mc_bkctilde {
-            label = "&TILDE";
+            label = "TILDE";
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
