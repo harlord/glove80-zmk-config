@@ -22,7 +22,7 @@
   };
 
 combos {
-        compatible = "zmk,combos"";
+        compatible = "zmk,combos";
 //shift+BKSPACE<>TILDE 
 CBKSHIFT(&kp LA(N1), 23) 
 CBKS(&mc_bkctilde A, 35)  
